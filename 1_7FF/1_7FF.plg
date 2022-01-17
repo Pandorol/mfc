@@ -3,9 +3,103 @@
 <pre>
 <h1>Build Log</h1>
 <h3>
---------------------Configuration: 1_7FF - Win32 Debug--------------------
+--------------------Configuration: 1_7FF - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/1_7FF.res" /d "NDEBUG" /d "_AFXDLL" "D:\CWorkSpace\0305\1_7FF\1_7FF.rc"" 
+Creating temporary file "C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B4.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/1_7FF.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\CWorkSpace\0305\1_7FF\1_7FF.cpp"
+"D:\CWorkSpace\0305\1_7FF\1_7FFDoc.cpp"
+"D:\CWorkSpace\0305\1_7FF\1_7FFView.cpp"
+"D:\CWorkSpace\0305\1_7FF\AddActivityDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\CAClistFile.cpp"
+"D:\CWorkSpace\0305\1_7FF\CDeviceData.cpp"
+"D:\CWorkSpace\0305\1_7FF\ChannelsSetupDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\CInfoFile.cpp"
+"D:\CWorkSpace\0305\1_7FF\ConnectDeviceDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\ConnectionStatusDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\DeviceInfoDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\DrawPand.cpp"
+"D:\CWorkSpace\0305\1_7FF\EEGWaveDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\ImpedanceDetectiveDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\MainFrm.cpp"
+"D:\CWorkSpace\0305\1_7FF\NewActivityDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\OnlineSystem1.cpp"
+"D:\CWorkSpace\0305\1_7FF\ParadigmSetupDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\ParadigmShowDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\TCPIPOperate.cpp"
+"D:\CWorkSpace\0305\1_7FF\TCPIPSetupDialog.cpp"
+"D:\CWorkSpace\0305\1_7FF\WaveView.cpp"
+]
+Creating command line "cl.exe @C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B4.tmp" 
+Creating temporary file "C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/1_7FF.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\CWorkSpace\0305\1_7FF\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B5.tmp" 
+Creating temporary file "C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B6.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/1_7FF.pdb" /machine:I386 /out:"Release/1_7FF.exe" 
+.\Release\1_7FF.obj
+.\Release\1_7FFDoc.obj
+.\Release\1_7FFView.obj
+.\Release\AddActivityDialog.obj
+.\Release\CAClistFile.obj
+.\Release\CDeviceData.obj
+.\Release\ChannelsSetupDialog.obj
+.\Release\CInfoFile.obj
+.\Release\ConnectDeviceDialog.obj
+.\Release\ConnectionStatusDialog.obj
+.\Release\DeviceInfoDialog.obj
+.\Release\DrawPand.obj
+.\Release\EEGWaveDialog.obj
+.\Release\ImpedanceDetectiveDialog.obj
+.\Release\MainFrm.obj
+.\Release\NewActivityDialog.obj
+.\Release\OnlineSystem1.obj
+.\Release\ParadigmSetupDialog.obj
+.\Release\ParadigmShowDialog.obj
+.\Release\StdAfx.obj
+.\Release\TCPIPOperate.obj
+.\Release\TCPIPSetupDialog.obj
+.\Release\WaveView.obj
+.\Release\1_7FF.res
+]
+Creating command line "link.exe @C:\Users\PANDOR~1\AppData\Local\Temp\RSPA2B6.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+1_7FF.cpp
+1_7FFDoc.cpp
+1_7FFView.cpp
+AddActivityDialog.cpp
+CAClistFile.cpp
+CDeviceData.cpp
+ChannelsSetupDialog.cpp
+CInfoFile.cpp
+ConnectDeviceDialog.cpp
+ConnectionStatusDialog.cpp
+DeviceInfoDialog.cpp
+DrawPand.cpp
+EEGWaveDialog.cpp
+ImpedanceDetectiveDialog.cpp
+MainFrm.cpp
+NewActivityDialog.cpp
+OnlineSystem1.cpp
+ParadigmSetupDialog.cpp
+ParadigmShowDialog.cpp
+TCPIPOperate.cpp
+Generating Code...
+Compiling...
+TCPIPSetupDialog.cpp
+WaveView.cpp
+Generating Code...
+Linking...
 
 
 
